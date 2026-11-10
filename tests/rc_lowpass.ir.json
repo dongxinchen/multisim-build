@@ -1,0 +1,10 @@
+{
+  "title": "RC low-pass, fc ~1.59kHz",
+  "nodes": ["in", "out", "0"],
+  "components": [
+    { "ref": "V1", "type": "V", "value": "AC 1", "pins": { "1": "in", "2": "0" }, "note": "ac source for the bode plot" },
+    { "ref": "R1", "type": "R", "value": "1k", "pins": { "1": "in", "2": "out" } },
+    { "ref": "C1", "type": "C", "value": "100n", "pins": { "1": "out", "2": "0" } }
+  ],
+  "analysis": { "kind": "ac", "sweep": "dec", "points": 10, "fstart": "1", "fstop": "100k" }
+}

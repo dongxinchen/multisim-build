@@ -1,0 +1,16 @@
+{
+  "ok": true,
+  "circuit": "rc_lowpass",
+  "file": "D:\\multisim-agent\\out\\rc_lowpass.ms14",
+  "components": [
+    { "ref": "C1", "rlc": "1E-07" },
+    { "ref": "R1", "rlc": "1000" },
+    { "ref": "V1", "rlc": null }
+  ],
+  "nets": {
+    "0": ["C1:2", "V1:2"],
+    "in": ["V1:1", "R1:1"],
+    "out": ["R1:2", "C1:1"]
+  },
+  "netlistOk": true
+}

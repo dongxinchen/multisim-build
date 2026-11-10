@@ -1,0 +1,25 @@
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# build output
+*.zip
+*.7z
+
+# working data that must not be published
+.work/
+out/
+*.work
+*.bak
+
+# python venv
+.venv/
+venv/
+
+# editors / OS
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+*.swp

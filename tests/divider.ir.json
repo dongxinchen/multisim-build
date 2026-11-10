@@ -1,0 +1,10 @@
+{
+  "title": "voltage divider 10V -> 5V",
+  "nodes": ["in", "mid", "0"],
+  "components": [
+    { "ref": "V1", "type": "V", "value": "DC 10", "pins": { "1": "in", "2": "0" } },
+    { "ref": "R1", "type": "R", "value": "1k", "pins": { "1": "in", "2": "mid" } },
+    { "ref": "R2", "type": "R", "value": "1k", "pins": { "1": "mid", "2": "0" } }
+  ],
+  "analysis": { "kind": "tran", "step": "10u", "stop": "5m" }
+}
